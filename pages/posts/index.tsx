@@ -9,6 +9,8 @@ interface Props {
   posts: Post[]
 }
 
+console.log('hi');
+
 const Posts: NextPage<Props> = ({ posts }) => {
 
   return(
